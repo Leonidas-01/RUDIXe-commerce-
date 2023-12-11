@@ -16,7 +16,7 @@ const HeaderBottom = () => {
   useEffect(() => {
     document.body.addEventListener("click", (e) => {
       if (ref.current.contains(e.target)) {
-        setShow(true);
+        setShow(true); 
       } else {
         setShow(false);
       }
