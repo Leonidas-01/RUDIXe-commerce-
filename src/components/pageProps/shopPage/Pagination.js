@@ -18,6 +18,7 @@ function Items({ currentItems }) {
               color={item.color}
               badge={item.badge}
               des={item.des}
+              //continuation on the pagination soon
             />
           </div>
         ))}
